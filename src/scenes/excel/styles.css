@@ -1,0 +1,38 @@
+/* styles.css */
+.input-file{
+    background-color: aquamarine;
+}
+
+.excel-table {
+    width: 100%;
+    border: none;
+    /* border-collapse: collapse; */
+  }
+  
+  .table-header {
+    background-color: #8EAADB;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .table-cell {
+    border:none;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  .table-cell-centered {
+    text-align: center;
+  }
+  
+  .table-cell-right {
+    text-align: right;
+  }
+  
+  .table-cell-highlight {
+    background-color: yellow;
+  }
+  
