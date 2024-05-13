@@ -2,10 +2,10 @@ import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { mockTransactions } from "../../data/mockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-import EmailIcon from "@mui/icons-material/Email";
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import TrendingDownIcon from '@mui/icons-material/TrendingDown';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import TrafficIcon from "@mui/icons-material/Traffic";
+import VisibilityIcon from '@mui/icons-material/Visibility';
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
@@ -58,13 +58,13 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="12,361"
-            subtitle="Emails Sent"
+            title="€1236,01"
+            subtitle="Perdida de Capital"
             progress="0.75"
             increase="+14%"
             icon={
-              <EmailIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+              <TrendingDownIcon
+                sx={{ color: colors.greenAccent[600], fontSize: "36px" }}
               />
             }
           />
@@ -77,13 +77,13 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225"
-            subtitle="Sales Obtained"
+            title="€431.255,225"
+            subtitle="Crecimiento Año tras Año"
             progress="0.50"
             increase="+21%"
             icon={
-              <PointOfSaleIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+              <QueryStatsIcon
+                sx={{ color: colors.greenAccent[600], fontSize: "36px" }}
               />
             }
           />
@@ -96,8 +96,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
-            subtitle="New Clients"
+            title="3244"
+            subtitle="Nuevos Clientes"
             progress="0.30"
             increase="+5%"
             icon={
@@ -116,12 +116,12 @@ const Dashboard = () => {
         >
           <StatBox
             title="1,325,134"
-            subtitle="Traffic Received"
+            subtitle="Impresiones Totales"
             progress="0.80"
             increase="+43%"
             icon={
-              <TrafficIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
+              <VisibilityIcon
+                sx={{ color: colors.greenAccent[600], fontSize: "36px" }}
               />
             }
           />
@@ -146,14 +146,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
+                Ingresos Generados
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                $59,342.32
+                €59,342.32
               </Typography>
             </Box>
             <Box>
@@ -227,7 +227,7 @@ const Dashboard = () => {
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            Campaign
+            Reditos de Campañas
           </Typography>
           <Box
             display="flex"
@@ -241,9 +241,9 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $48,352 revenue generated
+              €48,352 Ingresos Generados
             </Typography>
-            <Typography>Includes extra misc expenditures and costs</Typography>
+            <Typography>Incluye extra miscelaneos y costos</Typography>
           </Box>
         </Box>
         <Box
@@ -256,7 +256,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Sales Quantity
+            Ocupacion Total del Inventario
           </Typography>
           <Box height="250px" mt="-20px">
             <BarChart isDashboard={true} />
@@ -273,7 +273,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ marginBottom: "15px" }}
           >
-            Geography Based Traffic
+            Ocupacion Geografica
           </Typography>
           <Box height="200px">
             <GeographyChart isDashboard={true} />

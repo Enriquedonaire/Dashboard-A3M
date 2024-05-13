@@ -10,22 +10,22 @@ const TablaCampaña = () => {
   }, []);
 
   return (
-    <div style={{ margin: "0 auto", maxWidth: "1600px" }}>
+    <div style={{ margin: "100px auto", maxWidth: "1600px" }}>
       <table>
         <thead>
           <tr>
-            <th>Placement Status</th>
-            <th>Campaign Name</th>
-            <th>Fecha - Día-Mes</th>
-            <th>Impre.Objetivo</th>
-            <th>Impre.servidas</th>
-            <th>Impresiones previstas a servir</th>
-            <th>Impression Real/Prev</th>
-            <th>Importe objetivo</th>
-            <th>Importe real</th>
-            <th>Importe previsto a servir</th>
-            <th>Importe Real/Prev</th>
-            <th>Neto Fuera</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Placement Status</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Campaign Name</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Fecha - Día-Mes</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Impre.Objetivo</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Impre.servidas</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Impresiones previstas a servir</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Impression Real/Prev</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Importe objetivo</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Importe real</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Importe previsto a servir</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Importe Real/Prev</th>
+            <th  style={{ border: "none", padding: "4px", textAlign: "right" }}>Neto Fuera</th>
           </tr>
           <tr>
             <td style={{ border: "none", padding: "4px", textAlign: "right" }}>Total ACTIVE</td>

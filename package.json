@@ -1,6 +1,7 @@
 {
   "name": "dashboard-admin",
   "version": "0.1.0",
+  "proxy": "http://34.118.58.199",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -25,6 +26,7 @@
     "chart.js": "^4.4.2",
     "file-saver": "^2.0.5",
     "formik": "^2.4.5",
+    "openai": "^4.0.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
