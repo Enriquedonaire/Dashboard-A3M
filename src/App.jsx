@@ -16,7 +16,6 @@ import Pie from "./scenes/pie";
 import Geography from "./scenes/geography";
 import TablaDinamica from "./scenes/excel/TablaDinamica";
 import TablaCampaña from "./scenes/excel/TablaCampaña";
-// import BarChart from "./service/api";
 import CampaignTracker from "./service/api";
 
 function App() {
