@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      const redirectPath = window.location.pathname.replace('/Dashboard-A3M', '');
+      const redirectURL = `${redirectPath}${window.location.search}${window.location.hash}`;
+      window.location.replace('/Dashboard-A3M/#' + redirectURL);
+    </script>
+  </head>
+
+  <body>
+    <p>Redirecting...</p>
+  </body>
+
+</html>
