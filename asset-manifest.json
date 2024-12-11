@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Dashboard-A3M/static/css/main.4646098e.css",
-    "main.js": "/Dashboard-A3M/static/js/main.ca940174.js",
+    "main.js": "/Dashboard-A3M/static/js/main.8b6a5815.js",
     "index.html": "/Dashboard-A3M/index.html",
     "main.4646098e.css.map": "/Dashboard-A3M/static/css/main.4646098e.css.map",
-    "main.ca940174.js.map": "/Dashboard-A3M/static/js/main.ca940174.js.map"
+    "main.8b6a5815.js.map": "/Dashboard-A3M/static/js/main.8b6a5815.js.map"
   },
   "entrypoints": [
     "static/css/main.4646098e.css",
-    "static/js/main.ca940174.js"
+    "static/js/main.8b6a5815.js"
   ]
 }
