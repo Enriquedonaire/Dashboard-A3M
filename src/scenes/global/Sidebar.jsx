@@ -98,7 +98,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/A3MediaLogo.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/A3MediaLogo.png`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
