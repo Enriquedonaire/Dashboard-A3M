@@ -14,9 +14,7 @@ import Bar from "./scenes/bar";
 import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import Geography from "./scenes/geography";
-import TablaDinamica from "./scenes/excel/TablaDinamica";
-import TablaCampaña from "./scenes/excel/TablaCampaña";
-import CampaignTracker from "./service/api";
+
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -34,9 +32,6 @@ function App() {
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
-              <Route path="/excel" element={<TablaDinamica />} />
-              <Route path="/dynamic" element={<TablaCampaña />} />
-              <Route path="/service" element={<CampaignTracker />} />
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />

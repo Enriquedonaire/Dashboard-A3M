@@ -16,8 +16,6 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
-import BarChartIcon from '@mui/icons-material/BarChart';
-import BackupTableIcon from '@mui/icons-material/BackupTable';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -155,27 +153,7 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-            <Item
-              title="Ocupacion Table"
-              to="/excel"
-              icon={<BackupTableIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Seguimiento Table"
-              to="/dynamic"
-              icon={<BackupTableIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Grafico API"
-              to="/service"
-              icon={<BarChartIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+            
             <Typography
               variant="h6"
               color={colors.grey[300]}
