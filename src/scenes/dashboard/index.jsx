@@ -13,12 +13,11 @@ import BarChart from "../../components/BarChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
 import { exportToExcel } from "react-json-to-excel";
-import dummyData from "../../dummyData.json";
+// import dummyData from "../../dummyData.json";
 
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const dataJson = dummyData;
 
   return (
     <Box m="20px">
@@ -34,7 +33,7 @@ const Dashboard = () => {
               fontWeight: "bold",
               padding: "10px 20px",
             }}
-            onClick={() => exportToExcel(dataJson, "Ocupacion_inventario")}
+            onClick={() => exportToExcel( "Ocupacion_inventario")}
           >
             <DownloadOutlinedIcon sx={{ mr: "10px" }} />
             Download Excel

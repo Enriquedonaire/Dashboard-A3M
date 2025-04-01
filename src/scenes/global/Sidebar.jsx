@@ -79,8 +79,8 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h3" fontWeight="bold" color={colors.redAccent[500]}>
-                  ATRESMEDIA
+                <Typography variant="h2" fontWeight="bold" color={colors.redAccent[500]}>
+                  INCUBUS
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -96,7 +96,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`${process.env.PUBLIC_URL}/assets/A3MediaLogo.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/EnriquePhoto.jpg`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -107,7 +107,7 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  A3M
+                  Q2
                 </Typography>
                 <Typography variant="h6" color={colors.greenAccent[500]}>
                   ADMIN
